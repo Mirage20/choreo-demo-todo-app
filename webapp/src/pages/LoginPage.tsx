@@ -14,7 +14,7 @@ function LoginPage(props: LoginPageProps) {
   return (
     <Stack spacing={2} alignItems="center" sx={{ m: 1 }}>
       <Typography variant="h4" align="center">
-        Todo List
+        Todo List v2
       </Typography>
       {props.isLoginProgress ? (
         <Loader text="Logging in..." />
